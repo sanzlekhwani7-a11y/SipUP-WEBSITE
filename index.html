@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SipUp - E-commerce</title>
+    <style>
+        :root {
+            --primary-color: #5e84e2;
+            --secondary-color: #f4f4f4;
+            --font-family: 'Arial', sans-serif;
+            --animation-duration: 0.4s;
+        }
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            background-color: var(--secondary-color);
+        }
+        .splash {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: var(--primary-color);
+            color: white;
+            transition: opacity var(--animation-duration);
+        }
+        .hero {
+            text-align: center;
+            padding: 20px;
+        }
+        /* Add additional styles here for product viewer, shopping cart, etc. */
+        /* Example styles */
+        .product {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: transform var(--animation-duration);
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="splash">Welcome to SipUp!</div>
+    <div class="hero">
+        <h1>Your E-commerce Solution</h1>
+        <p>Explore the best products.</p>
+    </div>
+    <div class="product-viewer">
+        <!-- Add Swiper JS implementation and HTML here -->
+    </div>
+    <div class="shopping-cart">
+        <!-- Shopping cart implementation -->
+    </div>
+    <div class="checkout-modal">
+        <!-- Checkout modal implementation -->
+    </div>
+    <div class="success-screen">
+        <!-- Success screen implementation -->
+    </div>
+    <script>
+        // GSAP animations and e-commerce functionality here
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Swiper carousel here
+            // Add event listeners for cart and checkout logic
+        });
+    </script>
+</body>
+</html>
